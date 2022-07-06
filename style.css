@@ -49,6 +49,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 
 .link-button-one {
@@ -61,6 +62,7 @@ p {
     font-size: large;
     text-align: center;
     margin: 650px;
+
 }
 
 .container {
@@ -150,4 +152,14 @@ p {
     background-image: url(icons/Frame-1.png);
     background-repeat: no-repeat;
     padding: 50px;
+}
+
+.footer {
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+#specific-footer {
+    color: red;
+    font-style: oblique;
 }
