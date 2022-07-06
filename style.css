@@ -168,7 +168,13 @@ p {
 
 #video-heading {
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#get-updates {
+    color: black;
+
+
 }
 
 .container-two {
@@ -179,6 +185,46 @@ p {
     margin-bottom: 60px;
 
 }
+
+#update-box {
+
+    width: 40%;
+    background: cornsilk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 26%;
+    margin-right: 28%;
+    padding: 70px;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+#label-input {
+    position: relative;
+}
+
+#email-input {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+#sub-button {
+    position: absolute;
+    top: 0;
+    border: none;
+    padding: 10px;
+    right: 0;
+    bottom: 0;
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+}
+
 
 .footer {
     background-color: black;
