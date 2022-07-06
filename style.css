@@ -109,3 +109,45 @@ p {
     text-align: center;
     margin-left: 875px;
 }
+
+.plan-header {
+    color: black;
+}
+
+.plan-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.plans {
+    width: 60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 30px;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+#food {
+    background-color: skyblue;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+
+#shelter {
+    background-color: pink;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+
+}
+
+#education {
+    background-color: cornsilk;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    padding: 50px;
+}
