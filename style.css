@@ -1,19 +1,45 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    color: white;
-    font-weight: 700;
-    text-align: center;
 }
 
 h1 {
     font-size: 70px;
     margin-bottom: 0px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    text-align: center;
 }
 
 h3 {
     font-size: 30px;
     margin-top: 0px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+h4 {
+    font-size: 25px;
+    margin-bottom: 40px;
+
+}
+
+p {
+    margin-top: 0px;
+    font-weight: 200;
+    color: gray;
+    text-align: center;
 }
 
 
@@ -25,7 +51,7 @@ h3 {
     background-position: center;
 }
 
-.link-button {
+.link-button-one {
     color: white;
     text-decoration: none;
     background-image: linear-gradient(crimson, tomato);
@@ -33,4 +59,52 @@ h3 {
     border-radius: 5px;
     padding: 15px 20px;
     font-size: large;
+    text-align: center;
+    margin: 650px;
 }
+
+.container {
+    display: flex;
+    width: 50%;
+    margin-left: 600px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.tk {
+    width: 100px;
+    height: 80px;
+    background-color: rgba(230, 225, 225, 0.322);
+    border: 10px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    color: gray;
+
+}
+
+#tk2 {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(250, 234, 237);
+    border: 1px solid red;
+    padding: 24px;
+    border-radius: 10px;
+    color: red;
+}
+
+.money-input {
+    margin-left: 605px;
+    margin-bottom: 40px;
+}
+
+.link-button-two {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(crimson, tomato);
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: large;
+    text-align: center;
+    margin-left: 875px;
